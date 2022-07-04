@@ -1,0 +1,69 @@
+* { padding:0; margin:0; vertical-align:baseline; list-style:none; border:0; }
+
+@import url('https://fonts.googleapis.com/css2?family=Lavishly+Yours&display=swap');
+
+
+body{
+    background: #fffafa;
+    font-family: 'Lavishly Yours', cursive;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 775px;
+    width: 3500px;
+}
+
+h1{
+    font-size: 100px;
+}
+
+
+h1,article{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 25%;
+    height: 50%;
+}
+
+p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+
+img{
+    width: 30%;
+}
+
+/*Classes*/
+
+.black-title{
+    justify-content: flex-start;
+    background-color: black;
+    text-align: start;
+    color: white;
+    width: 50%;
+}
+
+.white-title{
+    justify-content: flex-end;
+    text-align: end;
+    width: 50%;
+}
+
+.black-house{
+    display: flex;
+    background: black;
+    color:white;
+}
+
+.img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
