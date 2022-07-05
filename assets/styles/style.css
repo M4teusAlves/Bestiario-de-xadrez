@@ -2,9 +2,12 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lavishly+Yours&display=swap');
 
+/*font-family: 'Lavishly Yours', cursive;*/
 
 body{
-    background: #fffafa;
+    background-image: url("/assets/imagens/fundo.jpg");
+    background-size: cover;
+    background-repeat: repeat;
     font-family: 'Lavishly Yours', cursive;
     display: flex;
     flex-direction: column;
@@ -14,56 +17,69 @@ body{
 }
 
 h1{
+    display: flex;
+    width: 25%;
+    height: 50%;
     font-size: 100px;
 }
 
-
-h1,article{
+article{
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 25%;
     height: 50%;
+    width: 25%;
 }
 
-p{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 50%;
-    height: 100%;
+article p{
+    text-align: left;
+    padding-left: 4%;
+    font-size: 29px;
+}
+
+h2{
+    font-size: 60px;
+    text-align: center;
+}
+
+b{
+    font-size: 30px;
 }
 
 img{
-    width: 30%;
+    width:50%;
 }
 
 /*Classes*/
 
-.black-title{
-    justify-content: flex-start;
-    background-color: black;
-    text-align: start;
-    color: white;
-    width: 50%;
-}
-
 .white-title{
-    justify-content: flex-end;
-    text-align: end;
-    width: 50%;
-}
-
-.black-house{
     display: flex;
-    background: black;
-    color:white;
-}
-
-.img{
-    display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: flex-end;
     width: 50%;
     height: 100%;
 }
+
+.black-title{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-image: url(/assets/imagens/fundo-preto.png);
+    background-size: cover;
+    color: white;
+    width: 50%;
+    height: 100%;
+}
+
+.black-house{
+    width: 50%;
+    background-image: url(/assets/imagens/fundo-preto.png);
+    background-size: cover;
+    color: white;
+}
+
+.img{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
