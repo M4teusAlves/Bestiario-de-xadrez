@@ -5,7 +5,7 @@
 /*font-family: 'Lavishly Yours', cursive;*/
 
 body{
-    background-image: url("/assets/imagens/fundo.jpg");
+    background-image: url(../imagens/fundo.jpg);
     background-size: cover;
     background-repeat: repeat;
     font-family: 'Lavishly Yours', cursive;
@@ -62,7 +62,7 @@ img{
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    background-image: url(/assets/imagens/fundo-preto.png);
+    background-image: url(../imagens/fundo-preto.png);
     background-size: cover;
     color: white;
     width: 50%;
@@ -71,7 +71,7 @@ img{
 
 .black-house{
     width: 50%;
-    background-image: url(/assets/imagens/fundo-preto.png);
+    background-image: url(../imagens/fundo-preto.png);
     background-size: cover;
     color: white;
 }
