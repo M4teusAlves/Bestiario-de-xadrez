@@ -1,85 +1,21 @@
 * { padding:0; margin:0; vertical-align:baseline; list-style:none; border:0; }
 
-@import url('https://fonts.googleapis.com/css2?family=Lavishly+Yours&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
-/*font-family: 'Lavishly Yours', cursive;*/
+/*font-family: 'Press Start 2P', cursive;*/
 
 body{
-    background-image: url(../imagens/fundo.jpg);
+    background-image: url(../imagens/mesa.jpg);
     background-size: cover;
-    background-repeat: repeat;
-    font-family: 'Lavishly Yours', cursive;
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    height: 775px;
-    width: 3500px;
-}
-
-h1{
-    display: flex;
-    width: 25%;
-    height: 50%;
-    font-size: 100px;
-}
-
-article{
-    display: flex;
-    height: 50%;
-    width: 25%;
-}
-
-article p{
-    text-align: left;
-    padding-left: 4%;
-    font-size: 29px;
-}
-
-h2{
-    font-size: 60px;
-    text-align: center;
-}
-
-b{
-    font-size: 30px;
-}
-
-img{
-    width:50%;
-}
-
-/*Classes*/
-
-.white-title{
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    width: 50%;
-    height: 100%;
-}
-
-.black-title{
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    background-image: url(../imagens/fundo-preto.png);
-    background-size: cover;
-    color: white;
-    width: 50%;
-    height: 100%;
-}
-
-.black-house{
-    width: 50%;
-    background-image: url(../imagens/fundo-preto.png);
-    background-size: cover;
-    color: white;
-}
-
-.img{
-    width: 50%;
-    display: flex;
-    align-items: center;
     justify-content: center;
+    height: 100vh;
+}
+
+main{
+    background-image: url("../imagens/capa.gif");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 75%;
 }
 
