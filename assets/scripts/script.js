@@ -1,5 +1,5 @@
 
-
+let  i = 0;
 function openBook(){
     
     document.getElementById("title").style.display = "none"
@@ -7,6 +7,7 @@ function openBook(){
     setTimeout(page,1900)
 }
 
-function page(){
+function page(){ 
     document.getElementById("book").style.backgroundImage = `url(./assets/imagens/pagina.gif)`
+    document.getElementsByTagName("section")[i].style.display = "flex"
 }

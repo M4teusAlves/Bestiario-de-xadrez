@@ -34,3 +34,20 @@ h1:hover{
     cursor: pointer;
 }
 
+section{
+    display: none;
+    gap: 30%;
+    width: 65%;
+}
+
+section img{
+    margin-left: 15%;
+    width: 20%;
+}
+
+section p{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 13px;
+    width: 50%;
+}
+
