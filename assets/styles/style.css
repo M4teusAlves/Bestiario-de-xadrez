@@ -13,8 +13,9 @@ body{
 
 main{
     display: flex;
-    justify-content: center;
     align-items: center;
+    flex-direction: column;
+    gap: 16%;
     background-image: url("../imagens/capa.gif");
     background-size: contain;
     background-position: center;
@@ -27,6 +28,7 @@ h1{
     text-align: center;
     font-family: 'Press Start 2P', cursive;
     color: #B2A280;
+    margin-top: 30%;
 }
 
 h1:hover{
@@ -35,19 +37,40 @@ h1:hover{
 }
 
 section{
+    margin-top: 20%;
     display: none;
     gap: 30%;
     width: 65%;
 }
 
 section img{
+    margin-top: 7%;
     margin-left: 15%;
-    width: 20%;
+    width: 15%;
+    height: 75%;
 }
 
 section p{
+    margin-top: 7%;
     font-family: 'Press Start 2P', cursive;
     font-size: 13px;
     width: 50%;
+}
+
+button{
+    display: none;
+    background: none;
+    font-size: 13px;
+    font-family: 'Press Start 2P', cursive;
+}
+
+button:hover{
+    font-size: 20px;
+}
+
+.botoes{
+    display: flex;
+    justify-content: flex-end;
+    width: 60%;
 }
 
