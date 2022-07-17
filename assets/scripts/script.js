@@ -44,5 +44,4 @@ function backPage(){
     button[1].style.display = "none"
     i--
     setTimeout(page,600)
-
 }
