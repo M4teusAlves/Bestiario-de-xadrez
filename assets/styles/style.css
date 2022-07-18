@@ -1,4 +1,4 @@
-* { padding:0; margin:0; vertical-align:baseline; list-style:none; border:0; }
+* { padding:0; margin:0; vertical-align:baseline; list-style:none; border:0; text-decoration: none;}
 
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
@@ -14,8 +14,9 @@ body{
 main{
     display: flex;
     align-items: center;
+    justify-content: flex-end;
     flex-direction: column;
-    gap: 16%;
+    gap: 15%;
     background-image: url("../imagens/capa.gif");
     background-size: contain;
     background-position: center;
@@ -28,7 +29,7 @@ h1{
     text-align: center;
     font-family: 'Press Start 2P', cursive;
     color: #B2A280;
-    margin-top: 30%;
+    margin-bottom: 10%;
 }
 
 h1:hover{
@@ -37,24 +38,30 @@ h1:hover{
 }
 
 section{
-    margin-top: 20%;
     display: none;
-    gap: 30%;
-    width: 65%;
+    align-items: center;
+    justify-content: space-between;
+    width: 60%;
 }
 
-section img{
-    margin-top: 7%;
-    margin-left: 15%;
-    width: 15%;
-    height: 75%; 
+section div{
+    width: 40%;
+    display: flex;
+    justify-content: center;
 }
 
+div img{
+    width: 25%;
+
+}
 section p{
-    margin-top: 7%;
     font-family: 'Press Start 2P', cursive;
     font-size: 13px;
-    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
 }
 
 button{
@@ -72,5 +79,62 @@ button:hover{
     display: flex;
     justify-content: flex-end;
     width: 60%;
+    margin-bottom: 7%;
+}
+
+.credits img{
+    width: 35%;
+}
+
+.credits p{
+    text-align: center;
+    font-size: 15px;
+}
+
+a{
+    color: rgb(122, 5, 5);
+}
+
+a:hover{
+    font-size: 18px;
+}
+
+@media only screen and (min-width: 1920px){
+    
+    main{
+        gap: 10%;
+    }
+    
+    h1{
+        font-size: 50px;
+    }
+
+    section p{
+        font-size: 18px;
+    }
+
+    button{
+        font-size: 20px;
+    }
+
+    button:hover{
+        font-size: 27px;
+    }
+
+    .botoes{
+        width: 65%;
+    }
+
+    .credits img{
+        width: 40%;
+    }
+
+    .credits p{
+        font-size: 20px;
+    }
+
+    a:hover{
+        font-size: 22px;
+    }
 }
 
