@@ -12,11 +12,12 @@ body{
 }
 
 main{
+    max-width: 1440px;
+    max-height: 1026px;
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: center;
     flex-direction: column;
-    gap: 15%;
     background-image: url("../imagens/capa.gif");
     background-size: contain;
     background-position: center;
@@ -29,11 +30,10 @@ h1{
     text-align: center;
     font-family: 'Press Start 2P', cursive;
     color: #B2A280;
-    margin-bottom: 10%;
 }
 
 h1:hover{
-    font-size: 40px;
+    font-size: 250%;
     cursor: pointer;
 }
 
@@ -56,7 +56,7 @@ div img{
 }
 section p{
     font-family: 'Press Start 2P', cursive;
-    font-size: 13px;
+    font-size: 80%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -67,12 +67,12 @@ section p{
 button{
     display: none;
     background: none;
-    font-size: 13px;
+    font-size: 100%;
     font-family: 'Press Start 2P', cursive;
 }
 
 button:hover{
-    font-size: 20px;
+    font-size: 130%;
 }
 
 .botoes{
@@ -88,7 +88,7 @@ button:hover{
 
 .credits p{
     text-align: center;
-    font-size: 15px;
+    font-size: 100%;
 }
 
 a{
@@ -96,14 +96,10 @@ a{
 }
 
 a:hover{
-    font-size: 18px;
+    font-size: 120%;
 }
 
-@media only screen and (min-width: 1920px){
-    
-    main{
-        gap: 10%;
-    }
+@media only screen and (min-width: 1800px){
     
     h1{
         font-size: 50px;
@@ -127,10 +123,6 @@ a:hover{
 
     .credits img{
         width: 40%;
-    }
-
-    .credits p{
-        font-size: 20px;
     }
 
     a:hover{

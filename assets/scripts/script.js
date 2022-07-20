@@ -5,6 +5,8 @@ function openBook(){
     
     document.getElementById("title").style.display = "none"
     document.getElementById("book").style.backgroundImage = `url(./assets/imagens/fundo.gif)`
+    document.getElementsByTagName("main")[0].style.gap = "10%"
+    document.getElementsByTagName("main")[0].style.justifyContent = "flex-end"
     setTimeout(page,1900)
 }
 
