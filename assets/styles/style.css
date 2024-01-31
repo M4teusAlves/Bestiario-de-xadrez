@@ -8,22 +8,35 @@ body{
     background-image: url("../imagens/mesa.jpg");
     display: flex;
     justify-content: center;
+    align-items: center;
     height: 100vh;
 }
 
-main{
-    max-width: 1440px;
-    max-height: 1026px;
+.close{
+    width: 31.25rem;
+    height: 43.75rem;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     background-image: url("../imagens/capa.gif");
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    width: 75%;
-    height: 95%;
+}
+
+.open{
+    background-image: url("../imagens/fundo.gif");
+    width: 50rem;
+    height: 43.75rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
 }
 
 h1{
@@ -40,34 +53,36 @@ h1:hover{
 section{
     display: none;
     align-items: center;
-    justify-content: space-between;
-    width: 60%;
+    justify-content: center;
+    padding-top: 15.625rem;
+    gap: 6.25rem;
 }
 
 section div{
-    width: 40%;
     display: flex;
     justify-content: center;
+    width: 18.75rem;
+
 }
 
 div img{
-    width: 25%;
-
+    width: 5rem;
 }
+
 section p{
     font-family: 'Press Start 2P', cursive;
-    font-size: 80%;
+    font-size: 0.7rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 40%;
+    width: 18.75rem;
 }
 
 button{
     display: none;
     background: none;
-    font-size: 100%;
+    font-size: 1rem;
     font-family: 'Press Start 2P', cursive;
 }
 
@@ -75,11 +90,10 @@ button:hover{
     font-size: 130%;
 }
 
-.botoes{
-    display: flex;
-    justify-content: flex-end;
-    width: 60%;
-    margin-bottom: 7%;
+#botoes{
+    display: none;
+    width: 85%;
+    margin-bottom: 5rem;
 }
 
 .credits img{
@@ -96,37 +110,12 @@ a{
 }
 
 a:hover{
-    font-size: 120%;
+    cursor: pointer;
 }
 
-@media only screen and (min-width: 1800px){
-    
-    h1{
-        font-size: 50px;
-    }
 
-    section p{
-        font-size: 18px;
-    }
-
-    button{
-        font-size: 20px;
-    }
-
-    button:hover{
-        font-size: 27px;
-    }
-
-    .botoes{
-        width: 65%;
-    }
-
-    .credits img{
-        width: 40%;
-    }
-
-    a:hover{
-        font-size: 22px;
+@media (max-width: 500px) {
+    html{
+        font-size: 9px;
     }
 }
-

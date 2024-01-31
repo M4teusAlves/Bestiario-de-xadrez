@@ -12,7 +12,7 @@
     <title>Bestiário de xadrez</title>
 </head>
 <body>
-    <main id="book">
+    <main id="book" class="close">
         <h1 id="title" onclick="openBook()">Bestiário <br> de <br> Xadrez</h1>
         <section>
             <div>
@@ -22,7 +22,7 @@
                 <br>A única exceção será no movimento inicial, quando ele tem permissão para andar duas casas. 
                 É a única peça que não pode voltar e só pode capturar as peças adversárias na diagonal e não na posição em que se movimenta. 
                 A carpa sobe a cachoeira e no topo se torna um dragão.
-                 <br><br><b>Valor 1</b>
+                 <br><br><b>Valor: 1</b>
             </p>
         </section>
         <section>
@@ -32,7 +32,7 @@
             <p><b>Cavalo</b> <br> <br>O cavalo faz o movimento no formato de um “L”, com direito a andar três casas para conseguir formá-lo.
                 Ou ele anda duas casas na horizontal e uma na vertical ou ele anda duas casas na vertical e uma na horizontal.
                 Assim, essa peça se torna a única que pode pular outras, sem precisar estar na casa de mesma cor.
-                 <br><br><b>Valor 3</b>
+                 <br><br><b>Valor: 3</b>
             </p>
         </section>
         <section>
@@ -52,7 +52,7 @@
             <p><b>Torre</b><br><br>A torre sempre se movimentará no sentido reto, podendo ser pela vertical ou pela horizontal, perto ou distante.
                 Pode ocupar tanto a casa preta quanto a casa branca.
                 Pode fazer um movimento surpresa para proteger seu rei.
-                 <br><br><b>Valor 5</b>
+                 <br><br><b>Valor: 5</b>
             </p>
         </section>
         <section>
@@ -62,7 +62,7 @@
             <p><b>Rainha</b> <br> <br>A rainha tem os movimentos mais privilegiados do jogo, podendo imitar todas as peças. 
                 Ela pode se movimentar tanto nas diagonais quanto nos sentido reto, perto ou distante.
                 A única exceção de imitação é o cavalo. A dama não pode se movimentar como ele, assim como não pode pular outras peças.
-                 <br><br><b>Valor 10</b>
+                 <br><br><b>Valor: 10</b>
             </p>
         </section>
         <section>
@@ -71,7 +71,7 @@
             </div>
             <p><b>Rei</b> <br> <br>O rei tem os mesmos movimentos da dama, porém, são limitados a apenas uma casa por vez.  
                 Pode se movimentar pelas diagonais e também nos sentidos retos, mas pode andar apenas uma casa em cada movimento.
-                 <br><br><b>Valor como é a principal peça do jogo, tem seu valor infinito: uma vez perdido, o jogador é derrotado.</b>
+                 <br><br><b>Valor: Como é a principal peça do jogo, tem seu valor infinito: uma vez cercado, o jogador é derrotado.</b>
             </p>
         </section>
         <section class="credits">
@@ -84,7 +84,7 @@
                 <br><br><b>Desenvolvido por: <br><br><a href="https://github.com/M4teusAlves" target="_blank">Mateus Alves</a></b>
             </p>
         </section>
-        <div class="botoes">
+        <div id="botoes">
             <button type="button" onclick="backPage()"><</button>
             <button type="button" onclick="nextPage()">></button>
         </div>
